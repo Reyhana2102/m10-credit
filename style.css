@@ -1,0 +1,581 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+}
+header{
+    width: 100%;
+    height: 700px;
+    background-color: #e1d3fe;
+    border-radius: 0px 0px 25px 25px;
+}
+.heading-line{
+    box-sizing: border-box;
+    height: 100px;
+    /* width: 100%; */
+    padding: 30px 50px 20px 50px;
+    border-bottom: 1px solid rgb(165, 164, 164);
+}
+.heading-line ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    /* margin-bottom: 30px; */
+}
+li {
+    padding-left: 45px;
+    height: 25px;
+    margin-top: -35px;
+    text-decoration: none;
+    color: rgb(2, 32, 95);
+    font-family: 'Gilroy', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+li a{
+    text-decoration: none;
+    color: rgb(2, 32, 95);
+}
+.heading-line form{
+    margin-left: 1100px;
+    margin-top: -35px;
+}
+select{
+    font-family: 'Gilroy', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: transparent;
+    border: none;
+}
+.head-main{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left{
+    box-sizing: border-box;
+    margin: 520px 30px 320px 10px;
+    /* width: 440px;
+    height: 440px; */
+}
+.left h1{
+    width: 440px;
+    font-family: 'Gilroy' , Arial, sans-serif;
+    font-size: 55px;
+    font-weight: 500;
+    color: rgb(2, 32, 95);
+}
+.spann{
+    margin-top: 10px;
+    font-family: Gilroy, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(150, 126, 173);
+}
+.sp1{
+    display: inline;
+}
+.sp2{
+    display: inline;
+    padding-left: 100px;
+}
+.calc{
+    margin: 60px;
+    width: 180px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(92, 195, 243);  
+    border: 2px solid blue;
+    border-radius: 25px;
+}
+.calc a{
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(29, 35, 49);
+    background-color: rgb(92, 195, 243);
+    font-family: 'Gilroy', Arial, sans-serif;
+    font-size: 23px;
+    font-weight: 600;
+}
+.right{
+    margin: 0px 50px 0px 30px ;
+    width: 600px;
+    height: 550px;
+    background-image: url('/cash.jpg');
+    background-repeat: no-repeat;
+}
+.sec1{
+    margin-top: 40px;
+    padding: 30px 70px;
+    height: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    zoom: 1.073;
+    -webkit-font-smoothing: antialiased;
+    transition-duration: 0.8s;
+    transition-property: opacity, transform;
+    background-attachment: scroll;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    transform: none;
+    transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+}
+.box{
+    width: 30%;
+    height: 250px;
+    padding-left: 40px;
+}
+.box img{
+    width: 30%;
+    height: 40%;
+}
+.p1{
+    margin-top: 10px;
+    opacity: 0.9;
+    font-family: 'Gilroy', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+.p2{
+    width: 230px;
+    opacity: 0.6;
+    margin-top: 10px;
+    font-family: 'Gilroy', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+.sec2{
+    height: 700px;
+    margin: 50px 100px; 
+    opacity: 0.9;   
+}
+.sec2 h2{
+    font-family: 'Gilroy', Arial, sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+}
+.sec2 p{
+    padding-top: 30px;
+    font-family: 'Gilroy', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+.credit{
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 60px 0px;
+    width: 1000px;
+    height: 430px;
+}
+.sec3{
+    margin: 50px 100px; 
+    opacity: 0.9;  
+}
+.sec3 h2{
+    font-family: 'Gilroy', Arial, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+.page{
+    width: 1000px;
+    height: 600px;
+    margin: 100px;
+    background-image: url('/image.png');
+    background-repeat: no-repeat;
+    display: flex;
+}
+.page p{
+    font-family: 'Gilroy', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    width: 180px;
+    display: block;
+    margin-left: 400px;
+    margin-top: 240px;
+}
+.download{
+    margin-top: 310px;
+    margin-left: -180px;
+}
+.download a{
+    background-color: rgb(216, 213, 213);
+    border: 1px solid rgb(168, 213, 213);
+    border-radius: 20px;
+    width: 200px;
+    height: 80px;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    font-family: 'Gilroy', Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+.sec4{
+    margin: 70px 30px;
+    background-color: blue;
+    border-radius: 50px;
+    height: 860px;
+}
+.sec4 h2{
+    width: 640px;
+    height: 55px;
+    color: white;
+    margin-left: 300px;
+    padding-top: 80px;
+    text-align: center;
+    font-family: 'Gilroy', Arial, sans-serif;
+    font-size: 46px;
+    font-weight: 600;
+}
+.sec4 p{
+    color: white;
+    padding-top: 80px;
+    text-align: center;
+    font-family: 'Gilroy', Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+.sec4 .cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px 60px;
+}
+.card{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 27px;
+    height: 450px;
+    margin-left: 25px;
+}
+.foto img{
+    position: relative;
+    width: 350px;
+    height: 240px;
+    margin-bottom: 40px;
+}
+.card a{
+    text-align: center;
+    font-family: 'Gilroy', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+    text-decoration: none;
+    width: 230px;
+    height: 80px;
+}
+.sec5{
+    margin: 60px;
+    height: 960px;
+}
+.sec5 h2{
+    font-family: 'Gilroy', Arial, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+.benefit{
+    margin-top: 90px;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.atom{
+    border: 1px solid rgb(199, 206, 235);
+    border-radius: 15px;
+    width: 450px;
+    height: 300px;
+    margin-left: 20px;
+}
+.box-head{
+    margin-top: 20px;
+    margin-left: 25px;
+    width: 190px;
+    height: 50px;
+    font-family: 'Gilroy', Arial, sans-serif;
+    font-size: 26px;
+    font-weight: 500;
+    opacity: 0.9;
+}
+.about{
+    font-family: 'Gilroy', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    opacity: 0.9;
+    width: 215px;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+.atom img{
+    width: 170px;
+    height: 250px;
+    margin-left: 280px;
+    margin-top: -130px;
+}
+.sec6{
+    width: 100%;
+    height: 800px;
+}
+.trick{
+    margin: 60px;
+}
+.trick h2{
+    font-family: 'Gilroy', Arial, sans-serif;
+    font-size: 32px;
+    font-weight: 800;
+    height: 160px;
+    opacity: 0.9;
+    text-align: center;
+    margin-top: 80px;
+}
+.trick ul{
+    margin: 20px 70px;
+    text-align: left;
+}
+.trick li{
+    list-style: none;
+    margin: 30px;
+    height: 50px;
+    border-bottom: 1px solid rgb(168, 168, 168);
+    font-family: 'Gilroy', Arial, sans-serif;
+    font-size: 20px;
+    color: black;
+    font-weight: 500;
+}
+.trick span{
+    text-align: center;
+    margin-right: 30px;
+    color: rgb(0, 0, 0); 
+    width: 50px;
+    height: 50px;
+    /* box-sizing: border-box; */
+   
+}
+.sec7{
+    margin-top: 50px;
+    padding: 80px;
+}
+.holder7{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(215, 238, 238);
+    border-radius: 35px;
+}
+.left-hold{
+    margin-left: 20px;
+}
+.left-hold h2{
+    height: 170px;
+    width: 500px;
+    font-family: 'Gilroy', Arial, sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    color: rgb(2, 32, 95);
+    padding-left: 20px;
+}
+.left-hold p{
+    font-family: 'Gilroy', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    width: 350px;
+    opacity: 0.9;
+    padding-left: 20px;
+}
+.holder7 img{
+    padding-left: 200px;
+}
+.link{
+    margin: 40px 20px;
+}
+.holder7 a{
+    width: 200px;
+    height: 60px;
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    font-family: 'Gilroy', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+    border-radius: 35px
+}
+footer{
+    margin-top: 50px;
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .tn-atom t-bgimg{
+    width: 583px;
+    left: 567px;
+    top: 35px;
+    height: 460px;
+} */
